@@ -1,0 +1,840 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2C40F0A3-95ED-4780-92EE-FE466C1F25BF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EasyBill</RootNamespace>
+    <AssemblyName>EasyBill</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connection_Query.cs" />
+    <Compile Include="EasyBillDatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet111.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet111.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EasyBillDatabaseEDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EasyBillDatabaseEDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fmeasybill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmeasybill.Designer.cs">
+      <DependentUpon>fmeasybill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmadminlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmadminlogin.Designer.cs">
+      <DependentUpon>fmadminlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmcashierlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmcashierlogin.Designer.cs">
+      <DependentUpon>fmcashierlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmpaneladmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmpaneladmin.Designer.cs">
+      <DependentUpon>fmpaneladmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmpanelcashier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmpanelcashier.Designer.cs">
+      <DependentUpon>fmpanelcashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmaddadmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmaddadmin.Designer.cs">
+      <DependentUpon>fmaddadmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmshowadmindetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmshowadmindetails.Designer.cs">
+      <DependentUpon>fmshowadmindetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmcashierdetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmaddcashier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmaddcashier.Designer.cs">
+      <DependentUpon>fmaddcashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmupdatedeletecashier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmupdatedeletecashier.Designer.cs">
+      <DependentUpon>fmupdatedeletecashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmproductentry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmproductentry.Designer.cs">
+      <DependentUpon>fmproductentry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmviewproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmviewproduct.Designer.cs">
+      <DependentUpon>fmviewproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmdeleteproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmdeleteproduct.Designer.cs">
+      <DependentUpon>fmdeleteproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmupdateproductdetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmupdateproductdetails.Designer.cs">
+      <DependentUpon>fmupdateproductdetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmnewshipping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmnewshipping.Designer.cs">
+      <DependentUpon>fmnewshipping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmviewshippingdetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmviewshippingdetails.Designer.cs">
+      <DependentUpon>fmviewshippingdetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmaddcontacts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmaddcontacts.Designer.cs">
+      <DependentUpon>fmaddcontacts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmviewcontacts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmviewcontacts.Designer.cs">
+      <DependentUpon>fmviewcontacts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmdeleteadmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmdeleteadmin.Designer.cs">
+      <DependentUpon>fmdeleteadmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmsales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmsales.Designer.cs">
+      <DependentUpon>fmsales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmsaleSS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmsaleSS.Designer.cs">
+      <DependentUpon>fmsaleSS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmforgotcashierpassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmforgotcashierpassword.Designer.cs">
+      <DependentUpon>fmforgotcashierpassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmprintbill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmprintbill.Designer.cs">
+      <DependentUpon>fmprintbill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmrefreshcart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmrefreshcart.Designer.cs">
+      <DependentUpon>fmrefreshcart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmprintform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmprintform.Designer.cs">
+      <DependentUpon>fmprintform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="printing example.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printing example.Designer.cs">
+      <DependentUpon>printing example.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Receipt.cs" />
+    <EmbeddedResource Include="fmadminlogin.resx">
+      <DependentUpon>fmadminlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmeasybill.resx">
+      <DependentUpon>fmeasybill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmcashierlogin.resx">
+      <DependentUpon>fmcashierlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmpaneladmin.resx">
+      <DependentUpon>fmpaneladmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmpanelcashier.resx">
+      <DependentUpon>fmpanelcashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmaddadmin.resx">
+      <DependentUpon>fmaddadmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmprintform.resx">
+      <DependentUpon>fmprintform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmshowadmindetails.resx">
+      <DependentUpon>fmshowadmindetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmcashierdetails.resx">
+      <DependentUpon>fmcashierdetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmaddcashier.resx">
+      <DependentUpon>fmaddcashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmupdatedeletecashier.resx">
+      <DependentUpon>fmupdatedeletecashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmproductentry.resx">
+      <DependentUpon>fmproductentry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmupdateproductdetails.resx">
+      <DependentUpon>fmupdateproductdetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmviewproduct.resx">
+      <DependentUpon>fmviewproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmdeleteproduct.resx">
+      <DependentUpon>fmdeleteproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmnewshipping.resx">
+      <DependentUpon>fmnewshipping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmviewshippingdetails.resx">
+      <DependentUpon>fmviewshippingdetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmaddcontacts.resx">
+      <DependentUpon>fmaddcontacts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmviewcontacts.resx">
+      <DependentUpon>fmviewcontacts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmdeleteadmin.resx">
+      <DependentUpon>fmdeleteadmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmsales.resx">
+      <DependentUpon>fmsales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmsaleSS.resx">
+      <DependentUpon>fmsaleSS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmforgotcashierpassword.resx">
+      <DependentUpon>fmforgotcashierpassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmprintbill.resx">
+      <DependentUpon>fmprintbill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmrefreshcart.resx">
+      <DependentUpon>fmrefreshcart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printing example.resx">
+      <DependentUpon>printing example.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <None Include="app.config" />
+    <None Include="EasyBillDatabaseDataSet.xsc">
+      <DependentUpon>EasyBillDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseDataSet.xss">
+      <DependentUpon>EasyBillDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseDataSet1.xsc">
+      <DependentUpon>EasyBillDatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseDataSet1.xss">
+      <DependentUpon>EasyBillDatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseDataSet2.xsc">
+      <DependentUpon>EasyBillDatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseDataSet2.xss">
+      <DependentUpon>EasyBillDatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseDataSet3.xsc">
+      <DependentUpon>EasyBillDatabaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseDataSet3.xss">
+      <DependentUpon>EasyBillDatabaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseDataSet4.xsc">
+      <DependentUpon>EasyBillDatabaseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseDataSet4.xss">
+      <DependentUpon>EasyBillDatabaseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseDataSet5.xsc">
+      <DependentUpon>EasyBillDatabaseDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseDataSet5.xss">
+      <DependentUpon>EasyBillDatabaseDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseDataSet6.xsc">
+      <DependentUpon>EasyBillDatabaseDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseDataSet6.xss">
+      <DependentUpon>EasyBillDatabaseDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseDataSet7.xsc">
+      <DependentUpon>EasyBillDatabaseDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseDataSet7.xss">
+      <DependentUpon>EasyBillDatabaseDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseDataSet8.xsc">
+      <DependentUpon>EasyBillDatabaseDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseDataSet8.xss">
+      <DependentUpon>EasyBillDatabaseDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet10.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet10.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet11.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet11.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet111.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet111.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet111.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet111.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet111.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet111.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet12.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet12.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet13.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet13.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet14.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet14.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet15.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet15.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet16.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet16.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet17.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet17.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet18.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet18.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet2.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet2.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet21.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet21.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet3.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet3.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet4.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet4.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet5.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet5.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet6.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet6.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet7.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet7.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet8.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet8.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet9.xsc">
+      <DependentUpon>EasyBillDatabaseEDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EasyBillDatabaseEDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EasyBillDatabaseEDataSet9.xss">
+      <DependentUpon>EasyBillDatabaseEDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EasyBillDatabase.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EasyBillDatabase_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>EasyBillDatabase.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
