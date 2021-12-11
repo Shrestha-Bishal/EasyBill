@@ -1,0 +1,134 @@
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\bin\Debug\EasyBill.exe
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\bin\Debug\EasyBill.pdb
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.Properties.Resources.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.csproj.GenerateResource.Cache
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.exe
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.pdb
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmeasybill.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmcashierlogin.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmadminpanell.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmpaneladmin.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmpanelcashier.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.csprojResolveAssemblyReference.cache
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\bin\Debug\EasyBillDatabase.mdf
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\bin\Debug\EasyBillDatabase_log.ldf
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\bin\Debug\EasyBill.exe.config
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmaddadmin.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmshowadmindetails.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmaddcashier.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmcashierdetails.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmupdatedeletecashier.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmproductentry.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmviewproduct.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmupdateproductdetails.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmupdateproduct.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmnewshipping.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmviewshippingdetails.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmaddcontacts.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmviewcontacts.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\bin\Debug\EasyBill.exe.config
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.exe
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.pdb
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\bin\Debug\EasyBillDatabase.mdf
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\bin\Debug\EasyBillDatabase_log.ldf
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.csprojResolveAssemblyReference.cache
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmadminpanell.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmeasybill.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmcashierlogin.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmpaneladmin.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmpanelcashier.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmaddadmin.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmshowadmindetails.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmcashierdetails.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmaddcashier.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmupdatedeletecashier.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmproductentry.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmupdateproductdetails.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmviewproduct.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmupdateproduct.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmnewshipping.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmviewshippingdetails.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmaddcontacts.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmviewcontacts.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.Properties.Resources.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmupdatecashierdetails.resources
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\obj\x86\Debug\EasyBill.csproj.GenerateResource.Cache
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\bin\Debug\EasyBill.exe
+D:\notes\5th sem\Microprocessor notes\EasyBill\EasyBill\bin\Debug\EasyBill.pdb
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\bin\Debug\EasyBill.exe.config
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.exe
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.pdb
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\bin\Debug\EasyBillDatabase.mdf
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\bin\Debug\EasyBillDatabase_log.ldf
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\bin\Debug\EasyBill.exe
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\bin\Debug\EasyBill.pdb
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.csprojResolveAssemblyReference.cache
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmadminpanell.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmeasybill.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmcashierlogin.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmpaneladmin.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmpanelcashier.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmaddadmin.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmshowadmindetails.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmcashierdetails.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmaddcashier.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmupdatedeletecashier.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmproductentry.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmupdateproductdetails.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmviewproduct.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmupdateproduct.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmnewshipping.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmviewshippingdetails.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmaddcontacts.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmviewcontacts.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.Properties.Resources.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmupdatecashierdetails.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.csproj.GenerateResource.Cache
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmdeleteadmin.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill\EasyBill\obj\x86\Debug\EasyBill.Form1.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmdeleteadmin.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmsales.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmsaleSS.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmforgotcashierpassword.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\bin\Debug\PagedList.dll
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\bin\Debug\PagedList.xml
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmprintbill.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\RdlCompile.cache
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\RdlCompile.compiled
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.Form1.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmdeletesales.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.Form2.resources
+D:\notes\5th sem\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmprintform.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\bin\Debug\EasyBill.exe.config
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.exe
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.pdb
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.csprojResolveAssemblyReference.cache
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmadminpanell.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmeasybill.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmcashierlogin.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmpaneladmin.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmpanelcashier.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmaddadmin.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmprintform.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmshowadmindetails.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmcashierdetails.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmaddcashier.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmupdatedeletecashier.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmproductentry.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmupdateproductdetails.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmviewproduct.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmupdateproduct.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmnewshipping.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmviewshippingdetails.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmaddcontacts.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmviewcontacts.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmdeleteadmin.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmsales.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmsaleSS.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmforgotcashierpassword.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmprintbill.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.fmdeletesales.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.Form2.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.Form1.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.Properties.Resources.resources
+D:\notes\4th semester\#Assignments and projects\EasyBill Project\EasyBill\EasyBill\obj\x86\Debug\EasyBill.csproj.GenerateResource.Cache
