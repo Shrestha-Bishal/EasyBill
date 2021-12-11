@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyBill", "EasyBill\EasyBill.csproj", "{2C40F0A3-95ED-4780-92EE-FE466C1F25BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C40F0A3-95ED-4780-92EE-FE466C1F25BF}.Debug|x86.ActiveCfg = Debug|x86
+		{2C40F0A3-95ED-4780-92EE-FE466C1F25BF}.Debug|x86.Build.0 = Debug|x86
+		{2C40F0A3-95ED-4780-92EE-FE466C1F25BF}.Release|x86.ActiveCfg = Release|x86
+		{2C40F0A3-95ED-4780-92EE-FE466C1F25BF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
